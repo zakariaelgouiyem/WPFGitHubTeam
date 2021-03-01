@@ -20,8 +20,11 @@ namespace WPFGitHubTeam
     /// </summary>
     public partial class MainWindow : Window
     {
+        private int _counter;
+        
         public MainWindow()
         {
+            _counter = 0;
             InitializeComponent();
         }
 
