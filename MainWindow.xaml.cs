@@ -29,5 +29,10 @@ namespace WPFGitHubTeam
         {
             lblResult.Content = "Hello World";
         }
+        
+        private void btncounter_Click(object sender, RoutedEventArgs e)
+        {
+            lblcounter.Content = ++_counter;
+        }
     }
 }

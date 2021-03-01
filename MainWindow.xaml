@@ -10,5 +10,7 @@
         <Button x:Name="btnClick" Content="Button" HorizontalAlignment="Left" Margin="199,148,0,0" VerticalAlignment="Top" Click="btnClick_Click"/>
         <Label x:Name="lblResult" Content="" HorizontalAlignment="Left" Margin="199,87,0,0" VerticalAlignment="Top"/>
 
+        <Label x:Name="lblcounter" Content="Label" HorizontalAlignment="Left" Margin="43,62,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btncounter" Content="count" HorizontalAlignment="Left" Margin="41,108,0,0" VerticalAlignment="Top" Click="btncounter_Click"/>
     </Grid>
 </Window>
