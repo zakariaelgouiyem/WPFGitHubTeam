@@ -20,9 +20,16 @@ namespace WPFGitHubTeam
     /// </summary>
     public partial class MainWindow : Window
     {
+        private int _counter;
+        
         public MainWindow()
         {
             InitializeComponent();
+        }
+        
+        private void btncounter_Click(object sender, RoutedEventArgs e)
+        {
+            lblcounter.Content = ++_counter;
         }
     }
 }
